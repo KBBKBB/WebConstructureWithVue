@@ -10,7 +10,7 @@ const tableData = ref(Array.from({ length: 20 }).fill(item))
 
 <template>
     
-    <div class="component" style="width: 100%;background-color: aqua;">组件框11111111111111</div>
+    <div class="component">组件框11111111111111</div>
     <div>
         <el-scrollbar>
           <el-table :data="tableData">
@@ -29,5 +29,6 @@ const tableData = ref(Array.from({ length: 20 }).fill(item))
     border: 1px solid gray;
     border-radius: 5px;
     height: 50px;
+    width: 100%;
 }
 </style>
